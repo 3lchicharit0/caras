@@ -1,37 +1,31 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="function_definition" id="[_F7r[!RDxGz|r:JN4yt" x="-70" y="-9"><mutation name="eeeeeee" functionid="-p}eFL+{9(`USCoZR60J"/><field name="function_name">eeeeeee</field><statement name="STACK"><block type="device_show_leds" id="e+v0pbhCdhOTJOVCnh0?"><field name="LEDS">`
-        . . . . . 
-        . # . # . 
-        . . # . . 
-        # # # # # 
-        . . . . .
-        `</field></block></statement></block><block type="function_definition" id="2kCGAku]3$.j9E:ADBeh" x="197" y="5"><mutation name="triste" functionid="jHOy2h~WSzj5`]jukpAv"/><field name="function_name">triste</field><statement name="STACK"><block type="device_show_leds" id="-=rz/:Qz5Ss*qOs73~+5"><field name="LEDS">`
-        . . . . . 
-        . # . # . 
-        . . # . . 
-        . # # # . 
-        # . . . #
-        `</field></block></statement></block><block type="function_definition" id="S3s1*}=,Vr(5TIF9BYzT" x="471" y="15"><mutation name="feliz" functionid="BHgsVzccE@:r]I@r7|Qp"/><field name="function_name">feliz</field><statement name="STACK"><block type="device_show_leds" id="O[!*b#m%OLC5%bm~H$@3"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="zX$8;vC$Qq8iFMZUv8cj">si</variable><variable id="*;]id8*s(zM@tR16.$,g">no</variable><variable id="4^j-A5~Q5{d3hOgzThok">le das luz</variable></variables><block type="function_definition" id="S3s1*}=,Vr(5TIF9BYzT" x="-220" y="-53"><mutation name="feliz" functionid="BHgsVzccE@:r]I@r7|Qp"/><field name="function_name">feliz</field></block><block type="device_button_event" id="$ZO3T-q]h/#(z3CII+@w" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="-uB/-I42p72mk0PROB;W"><value name="text"><shadow type="text" id="|auSP$0Q+d~EL2W8UE2_"><field name="TEXT">le das luz</field></shadow></value><next><block type="device_show_leds" id="a!Fru$ag77@ISz)gja;A"><field name="LEDS">`
+        # # # . . 
+        # . . . # 
+        . # # . # 
+        . . # . # 
+        # # . . #
+        `</field><next><block type="device_pause" id="S9*Kve*v/--UU]5Mdy9L"><value name="pause"><shadow type="timePicker" id="Rm$bY]5n7YR0X`vPjtF="><field name="ms">1000</field></shadow></value><next><block type="device_print_message" id="Sv@1~]Y)?WPgwyhhB({v"><value name="text"><shadow type="text" id="+/%$cpMz*?:{P}|rNk9O"><field name="TEXT">gracias</field></shadow></value><next><block type="device_show_leds" id="O[!*b#m%OLC5%bm~H$@3"><field name="LEDS">`
         . . . . . 
         . # . # . 
         . . # . . 
         # . . . # 
         . # # # .
-        `</field></block></statement></block><block type="function_definition" id="sy_2noAI|cYpus?}]8mv" x="710" y="25"><mutation name="por que" functionid="Ud*cl/,[QK.fxNttQ1Bu"/><field name="function_name">por que</field><statement name="STACK"><block type="device_show_leds" id="GHVM+HEKA2RQ+9!{!R:/"><field name="LEDS">`
-        . # . . . 
-        # . # . . 
-        . . # . . 
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="[_F7r[!RDxGz|r:JN4yt" x="508" y="61"><mutation name="eeeeeee" functionid="-p}eFL+{9(`USCoZR60J"/><field name="function_name">eeeeeee</field><statement name="STACK"><block type="device_show_leds" id="e+v0pbhCdhOTJOVCnh0?"><field name="LEDS">`
         . . . . . 
-        . . # . .
-        `</field></block></statement></block><block type="function_definition" id="jk$_0X-r;-fBIJ7KCnb2" x="347" y="368"><mutation name="enojado" functionid="h:*ULfK(LZjx36cWI^mp"/><field name="function_name">enojado</field><statement name="STACK"><block type="device_show_leds" id="xc=..,y#c[+ec2[Ll`5i"><field name="LEDS">`
+        . # . # . 
+        . . # . . 
+        # # # # # 
+        . . . . .
+        `</field></block></statement></block><block type="controls_if" id="YyrapTMU43pzJC;6ly*i" disabled="true" x="-597" y="328"><value name="IF0"><shadow type="logic_boolean" id="0rcuWf]%4X|2UFqopsZW" disabled="true"><field name="BOOL">TRUE</field></shadow></value></block><block type="function_definition" id="sy_2noAI|cYpus?}]8mv" x="798" y="327"><mutation name="por que" functionid="Ud*cl/,[QK.fxNttQ1Bu"/><field name="function_name">por que</field></block><block type="variables_get" id="4:B=p2wfg^mB]0/TH0fR" disabled="true" x="299" y="449"><field name="VAR" id="zX$8;vC$Qq8iFMZUv8cj">si</field></block><block type="function_definition" id="jk$_0X-r;-fBIJ7KCnb2" x="581" y="724"><mutation name="enojado" functionid="h:*ULfK(LZjx36cWI^mp"/><field name="function_name">enojado</field><statement name="STACK"><block type="device_show_leds" id="xc=..,y#c[+ec2[Ll`5i"><field name="LEDS">`
         . # . # . 
         . . # . . 
         # . . . # 
         . # # # . 
         . # . # .
-        `</field></block></statement></block><block type="device_show_leds" id="lHF,-FC?k-Fs|%(USqcf" disabled="true" x="88" y="415"><field name="LEDS">`
-        . # # . . 
-        # # . . . 
-        # # # . . 
-        . # . . . 
-        . . # . .
-        `</field></block></xml>
+        `</field></block></statement></block><block type="function_definition" id="2kCGAku]3$.j9E:ADBeh" x="784" y="743"><mutation name="triste" functionid="jHOy2h~WSzj5`]jukpAv"/><field name="function_name">triste</field><statement name="STACK"><block type="device_show_leds" id="-=rz/:Qz5Ss*qOs73~+5"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block></xml>

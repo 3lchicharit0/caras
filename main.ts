@@ -1,11 +1,5 @@
 function feliz () {
-    basic.showLeds(`
-        . . . . .
-        . # . # .
-        . . # . .
-        # . . . #
-        . # # # .
-        `)
+	
 }
 function enojado () {
     basic.showLeds(`
@@ -16,6 +10,25 @@ function enojado () {
         . # . # .
         `)
 }
+input.onButtonPressed(Button.A, function () {
+    basic.showString("le das luz")
+    basic.showLeds(`
+        # # # . .
+        # . . . #
+        . # # . #
+        . . # . #
+        # # . . #
+        `)
+    basic.pause(1000)
+    basic.showString("gracias")
+    basic.showLeds(`
+        . . . . .
+        . # . # .
+        . . # . .
+        # . . . #
+        . # # # .
+        `)
+})
 function triste () {
     basic.showLeds(`
         . . . . .
@@ -26,13 +39,7 @@ function triste () {
         `)
 }
 function por_que () {
-    basic.showLeds(`
-        . # . . .
-        # . # . .
-        . . # . .
-        . . . . .
-        . . # . .
-        `)
+	
 }
 function eeeeeee () {
     basic.showLeds(`
